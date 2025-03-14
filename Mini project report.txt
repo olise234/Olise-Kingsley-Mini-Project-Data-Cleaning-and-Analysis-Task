@@ -1,0 +1,15 @@
+Olise Kingsley Project Report
+
+Project Report: Data Analysis and Cleaning 
+As part of my Mini project, I was tasked with cleaning and analyzing a dataset to extract valuable insights. Below is a summary of the steps I took to complete the project:
+
+Data Preparation
+To begin, I downloaded the dataset in Excel format and adjusted the row and column widths to ensure better visibility. 
+I then removed duplicate entries based on the unique identifier (ID) column to prevent data redundancy by clicking the delete duplicate icon on the Data section of the ribon. Next, I filtered out infinite values from the "Price per Unit" column (inf), by converting the dataset to table as these values were not relevant to the analysis. I deleted the corresponding rows to maintain data integrity.
+
+Data Analysis
+To calculate the total value of each entry, I added a new column (Amount) and used the formula =G2*H2 to multiply the "Quantity" and "Price per Unit" columns.
+
+Finally, I created a summary "table by region" using a Pivot Table. This allowed me to visualize the data and extract meaningful insights. in this case, it is total quantity and total value per region.
+
+Throughout this project, I gained hands-on experience with data cleaning, analysis, and visualization using Excel. I developed skills in data manipulation, formula writing, and Pivot Table creation, which will be valuable in future data analysis projects.
